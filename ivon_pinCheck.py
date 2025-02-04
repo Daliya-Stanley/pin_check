@@ -6,7 +6,7 @@ tries = 3
 count = 0
 
 while count < tries:
-    supplied_pin = getpass.getpass(prompt="Enter your PIN: " , stream=None)
+    supplied_pin = getpass.getpass(prompt="Enter your PIN: ")
     if int(supplied_pin) == myPin:
         print("Correct PIN")
         break
